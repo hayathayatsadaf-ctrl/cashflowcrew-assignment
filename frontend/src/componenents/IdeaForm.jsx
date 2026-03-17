@@ -8,7 +8,7 @@ function IdeaForm({ fetchIdeas }) {
   const [loading, setLoading] = useState(false);
   const [errors, setErrors] = useState({});
   const [success, setSuccess] = useState(false);
-  const API = "http://localhost:5000/api/ideas";
+  const API = "https://cashflowcrew-assignment-vaus.onrender.com/api/ideas";
 
   const validate = () => {
     const newErrors = {};

@@ -5,7 +5,7 @@ import IdeaList from "./componenents/IdeaList";
 
 function App() {
   const [ideas, setIdeas] = useState([]);
-  const API = "http://localhost:5000/api/ideas";
+  const API = "https://cashflowcrew-assignment-vaus.onrender.com/api/ideas";;
 
   const fetchIdeas = async () => {
     const res = await axios.get(API);
