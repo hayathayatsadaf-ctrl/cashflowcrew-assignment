@@ -1,6 +1,6 @@
 # IdeaSpark – Mini Idea Pitching Board
 
-🔗 **Live URL:** [https://cashflowcrew-assignment.vercel.app](https://cashflowcrew-assignment.vercel.app)
+🔗 **Live URL:** https://cashflowcrew-assignment-eight.vercel.app
 
 ---
 
