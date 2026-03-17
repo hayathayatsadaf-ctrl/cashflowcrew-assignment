@@ -7,7 +7,7 @@ function IdeaList({ ideas, fetchIdeas }) {
   const [openComments, setOpenComments] = useState({});
   const [commentText, setCommentText] = useState({});
   const [addingComment, setAddingComment] = useState({});
-  const API = "http://localhost:5000/api/ideas";
+  const API = "https://cashflowcrew-assignment-vaus.onrender.com/api/ideas";
 
   const handleDelete = async (id) => {
     setDeletingId(id);
